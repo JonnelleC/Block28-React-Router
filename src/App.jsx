@@ -3,15 +3,14 @@ import (createBrowserRouter, RouterProvider) from 'react-router-dom';
 import {Routes, Route, Link} from 'react-router-dom';
 
 
-
-
 <div id="container">
 
 <div id="navbar">
-  <li>Home</li>
- <li>Red</li>
- <li>Blue</li>
+  <Link to ='/home'>Home</Link>
+  <Link to ='/blue'>Blue</Link>
+  <Link to ='/red'>Red</Link>
 </div>
+
 <div id="main-section">
   <Routes>
      <Route path= "/blue" element={<h1>Blue</h1>}></Route>
