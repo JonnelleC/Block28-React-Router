@@ -1,3 +1,4 @@
+
 export default function Red() {
     return (
       <div className="red">
@@ -5,4 +6,4 @@ export default function Red() {
       </div>
     );
   }
-  export default Red;
+ 

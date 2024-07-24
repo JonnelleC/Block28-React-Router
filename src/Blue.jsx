@@ -6,4 +6,3 @@ export default function Blue() {
       </div>
     );
   }
-  export default Blue;
