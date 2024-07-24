@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import ReactDom from 'react-dom/client';
+
 import (createBrowserRouter, RouterProvider) from 'react-router-dom';
 import {Routes, Route, Link} from 'react-router-dom';
-import Blue from './Blue';
-import Red from './Red';
-import Home from './home'
 
-const router = createBrowserRouter([
 
-  path: '/',
-]);
+
 
 <div id="container">
 
 <div id="navbar">
-
+  <li>Home</li>
+ <li>Red</li>
+ <li>Blue</li>
 </div>
 <div id="main-section">
   <Routes>
@@ -26,3 +22,5 @@ const router = createBrowserRouter([
 
 </div>
 </div>
+
+export default App;

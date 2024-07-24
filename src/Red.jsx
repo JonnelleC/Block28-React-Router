@@ -5,3 +5,4 @@ export default function Red() {
       </div>
     );
   }
+  export default Red;
